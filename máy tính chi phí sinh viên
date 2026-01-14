@@ -1,0 +1,11 @@
+money = float(input("Initial money: "))
+transport = float(input("Transport expense: "))
+food = float(input("Food expense: "))
+internet = float(input("Internet expense: "))
+house = float(input("House expense: "))
+daily = food + transport + internet + house
+one_week = daily * 7
+final_money = money - one_week
+print("Total expense for one day:", daily)
+print("Total expense for one week:", one_week)
+print("Final amount after one week:", final_money)
